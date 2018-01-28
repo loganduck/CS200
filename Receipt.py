@@ -1,5 +1,4 @@
 """
-
 Southern New Hampshire University
 logan.duck@snhu.edu
 """
@@ -38,16 +37,7 @@ while all_items_scanned != True:
 		print('Incorrect input. Expected \'y\' or \'n\'. Ending program..')
 		exit()
 
-# print('**********RECEIPT**********\nItems:', items, '\n')
-# print('Subtotal: %s' % locale.currency(subtotal))
-# print('Sales Tax: %s' % locale.currency(salesTax))
-# print('Grand Total: %s' % locale.currency(grandTotal))
-
-
-receipt = str(('**********RECEIPT**********\nItems:', items, '\n',
-			'Subtotal: %s' % locale.currency(subtotal), '\n',
-			'Sales Tax: %s' % locale.currency(salesTax), '\n',
-			'Grand Total: %s' % locale.currency(grandTotal)))
-
-print(receipt)
-
+print('**********RECEIPT**********\nItems:', items, '\n')
+print('Subtotal: %s' % locale.currency(subtotal))
+print('Sales Tax: %s' % locale.currency(salesTax))
+print('Grand Total: %s' % locale.currency(grandTotal))
